@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="bodyinjury"
+version="${file.jarVersion}"
+displayName="Body Injury"
+authors="Ben"
+description='''
+Body part injury system with 5 severity levels and bandages.
+Critical injuries require golden apples.
+'''
+
+[[dependencies.bodyinjury]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bodyinjury]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
